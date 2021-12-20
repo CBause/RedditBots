@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RedditBots</string>
+    <string name="nav_crawler">Crawler</string>
+    <string name="nav_reminder">Reminder</string>
+    <string name="nav_user">User</string>
+
+    <string name="input_hint_search">Keyword…</string>
+
+    <string name="add_account_title">Add account</string>
+    <string name="add_account_username">Username</string>
+    <string name="add_account_password">Password</string>
+    <string name="add_account_app_identifier">App identifier</string>
+    <string name="add_account_app_secret">App secret</string>
+    <string name="add_account_submit">Submit</string>
+    <string name="error_empty_field">At least one field is empty</string>
+
+    <string name="select_account_title">Select account</string>
+    <string name="select_account_no_accounts_message">There are no accounts yet</string>
+
+    <string name="success_login">Login successful</string>
+    <string name="success_add_account">Added account successfully</string>
+    <string name="success_remove_account">Removed account successfully</string>
+    <string name="error_login">Login unsuccessful</string>
+    <string name="error_add_account">Adding the account did not work</string>
+    <string name="error_remove_account">Removing the account did not work</string>
+
+    <string name="title_accountManagement">Account management</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="title_user">User</string>
+
+    <string name="start_service">Start service</string>
+    <string name="bind_service">Bind service</string>
+    <string name="stop_service">Stop service</string>
+    <string name="service_stopped">Running service stopped</string>
+    <string name="success_service_running">Service running</string>
+    <string name="success_service_bound">Service running and bound</string>
+    <string name="error_service_could_not_start">Could not start service</string>
+    <string name="error_service_binding">Could not bind service or lost binding</string>
+
+    <string name="staged_to_be_reminded">Staged to be reminded:</string>
+    <string name="username">Username:</string>
+    <string name="remind_time">Remind in:</string>
+    <string name="database_empty">The database is currently empty</string>
+</resources>

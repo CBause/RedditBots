@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bigchris.studying.accountauthenticator">
+
+    <application
+        android:allowBackup="true">
+
+        <service android:name="bigchris.studying.accountauthenticator.AccountAuthenticatorService"
+                 android:exported="false">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator"
+                        android:resource="@xml/authenticator"/>
+        </service>
+
+    </application>
+
+</manifest>
